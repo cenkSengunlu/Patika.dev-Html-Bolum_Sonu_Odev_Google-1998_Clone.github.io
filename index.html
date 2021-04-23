@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Google!</title>
+    <style>
+      *{
+        margin: 0;
+        padding: 0;
+      }
+      .logo {
+        text-align: center;
+        margin-top: 8px;
+      }
+      .search{
+        background-color: rgba(238, 238, 238);
+        width:89%;
+        margin: 0 auto;
+        text-align: center;
+        padding: 3px 0 3px 0;
+      }
+      .giris{
+        width: 320px;
+        height: 16px;
+      }
+      footer{
+        text-align: center;
+        font-size:13px;
+      }
+      button{
+        font-size:14px;
+        padding: 1px 4px 1px 4px;
+      }
+      .box1{
+        background-color:rgb(126, 229, 218);
+        display: inline-block;
+        width: 40%;
+        height: 80px;
+        box-sizing: border-box;
+        margin-right:3px;
+        padding: 13px 0 13px 0;
+      }
+      .box2{
+        background-color:rgb(112, 204, 194);
+        display: inline-block;
+        width: 20%;
+        height: 80px;
+        box-sizing: border-box;
+        margin-right:3px;
+        padding: 8px 0 8px 0;
+        font-size: 13px;
+      }
+      .box3{
+        background-color:rgb(98, 179, 170);
+        display: inline-block;
+        width: 40%;
+        height: 80px;
+        box-sizing: border-box;
+      }
+      .boxes{
+        margin: 2px auto 15px auto;
+        text-align:center;
+        width:89%;
+        display:flex;
+        align-content: flex-start;
+        
+      }
+      a{
+        display: block;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="logo"><img src="google.jpg" alt=""/></div>
+    <div class="search">
+      <p>Search the web using Google!</p>
+      <input type="text" class="giris">
+      <br>
+      <button>Google Search</button>
+      <button>I'm feeling lucky</button>
+    </div>
+    <div class="boxes">
+      <div class="box1">
+        <p>Special Searches</p>
+        <a href="#">Stanford Search</a>
+        <a href="#">Linux Search</a>
+      </div>
+      <div class="box2">
+        <a href="#">Help!</a>
+        <a href="#">About Google!</a>
+        <a href="#">Company Info</a>
+        <a href="#">Google! Logos</a>
+      </div>
+      <div class="box3">
+        <p style="font-size:13px;">Get Google!</p>
+        <p style="font-size:13px;">updates monthly:</p>
+        <input type="text" placeholder="your e-mail" style="height: 18px;">
+        <br>
+        <button>Subscribe</button>
+        <a href="#" style="display:inline; font-size:13px; margin-left:15px;">Archive</a>
+      </div>
+    </div>
+    <footer>
+      Copyright ©1998 Google Inc.
+    </footer>
+  </body>
+</html>
